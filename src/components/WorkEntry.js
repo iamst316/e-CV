@@ -12,7 +12,7 @@ export default function(props){
         <h1 id='company-name'>{props.company}</h1>
         <div id='tenure-tray'>
             <span id='role'><i>{props.role}</i></span>
-            <span id='duration'>{props.start}-{props.end}</span>
+            <span id='duration'>&#9642; {props.start}-{props.end}</span>
         </div>
         <ul id='details'>
             {props.details.map((i)=>{

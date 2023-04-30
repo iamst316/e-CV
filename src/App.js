@@ -9,17 +9,21 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 function App() {
   return (
-    <>
-      <h1>Shubham Tandon</h1>
-      <p>I’m a <b>software engineer</b> based out of Ambala, Haryana.</p>
-      <SideIndex />
-      <AboutMe />
-      <Contact />
-      <WorkExp />
-      <Projects />
-      <Education />
-      <Skills />
-    </>
+    <div id='main-page'>
+      <div id='index'>
+        <SideIndex />
+      </div>
+      <div id='content'>
+        <h1>Shubham Tandon</h1>
+        <p>I’m a <b>software engineer</b> based out of Ambala, Haryana.</p>
+        <AboutMe />
+        <Contact />
+        <WorkExp />
+        <Projects />
+        <Education />
+        <Skills />
+      </div>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import '../css/AboutMe.css'
 import linkedin from '../img/linkedin.svg'
 import github from '../img/github.svg'
 export default function(){
-    return(<>
+    return(<div id='about-main'>
         <h1>About Me</h1>
         <hr />
         <div id='details'>
@@ -11,8 +11,8 @@ export default function(){
             <img id='pic' src={pic} />
         </div>
         <span id='link-tray'>
-            <span><img id='linkedin' src={linkedin} /></span>
-            <span><img src={github} id='github'/></span>
+            <span><a target='_blank' href='https://www.linkedin.com/in/shubham-tandon-342166162/'><img id='linkedin' src={linkedin} /></a></span>
+            <span><a target='_blank' href='https://github.com/iamst316'><img src={github} id='github'/></a></span>
         </span>        
-    </>)
+    </div>)
 }

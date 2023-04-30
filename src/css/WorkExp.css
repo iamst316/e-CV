@@ -1,0 +1,20 @@
+#work-main, #work-list{
+    margin-top: 18px;
+}
+
+#company-name{
+    font-size: 1.4rem;
+}
+
+#duration{
+    position: relative;
+    left: 22px;
+}
+
+#details{
+    display: inline-block;
+}
+
+li{
+    margin-bottom: 4px;
+}

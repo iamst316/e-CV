@@ -1,14 +1,14 @@
 import "../css/WorkExp.css";
 import WorkEntry from './WorkEntry'
-import {useState} from 'react'
-export default function(){
+import { useState } from 'react'
+export default function() {
 
     let [workArr, setArr] = useState([{
-        company:"Nobious Business Automation",
+        company: "Nobious Business Automation",
         role: "Software Engineer Trainee",
-        start : 'Feb 2022',
+        start: 'Feb 2022',
         end: 'Jun 2022',
-        details : [
+        details: [
             "Learned new frameworks - Angular, Springboot",
             "Implemented and integrated changes to codebase",
             "Practised extensive debugging",
@@ -17,11 +17,12 @@ export default function(){
     }])
     console.log(workArr)
 
-    return(<div id='work-main'>
+    return (<div id='work-main'>
         <h1>Work Experience</h1>
+        <hr />
         <div id='work-list'>
-            {workArr.map((i)=>{
-                return <WorkEntry company={i.company} role={i.role} start={i.start} end={i.end} details={i.details}  />
+            {workArr.map((i) => {
+                return <WorkEntry company={i.company} role={i.role} start={i.start} end={i.end} details={i.details} />
             })}
         </div>
     </div>)

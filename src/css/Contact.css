@@ -1,0 +1,27 @@
+#contact-name,#contact-city,#contact-tel,#contact-mail{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+#contact-name{
+    margin-top: 10px;
+}
+
+#contact-mail{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+#print-cv{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+#print-cv:hover{
+    background-color: white;
+    color: orangered;
+    box-shadow: 3px 3px orangered;
+    transition: box-shadow .5s .1s, color .5s .1s, background-color .5s .1s;
+}
