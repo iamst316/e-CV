@@ -1,0 +1,19 @@
+#ed-main{
+    margin-top: 16px;
+}
+
+#ed-entry{
+    margin-top: 10px;
+}
+
+#school-name{
+    font-size: 1.4rem;
+}
+
+#ed-tray,#ed-details{
+    margin-top: 3px;
+}
+
+#ed-duration{
+    margin-left: 16px;
+}

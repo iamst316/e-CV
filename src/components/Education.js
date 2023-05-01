@@ -1,6 +1,9 @@
 // import "../css/WorkExp.css";
 import EdEntry from './EdEntry'
 import {useState} from 'react'
+import '../css/Education.css';
+
+
 export default function(){
 
     let [edArr, setArr] = useState([{
@@ -37,9 +40,10 @@ export default function(){
     },
 ])
     // console.log(workArr)
-
+    
     return(<div id='ed-main'>
-        <h1>Education</h1>
+        <h1 id='ed-main-title'>Education</h1>
+        <hr />
         <div id='ed-list'>
             {edArr.map((i)=>{
                 return <EdEntry school={i.school} degree={i.degree} duration={i.duration} details={i.details} />

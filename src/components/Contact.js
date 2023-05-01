@@ -2,6 +2,8 @@ import '../css/Contact.css'
 
 
 export default function(){
+
+    
     return(<div id='contact-main'>
         <h1 id='contact-main-title'>Contact Details</h1>
         <hr />

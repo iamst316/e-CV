@@ -1,0 +1,19 @@
+#project-name{
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+#project-name:hover{
+    color: darkorange;
+    transform: scale(1.03);
+    transition: transform .5s .1s, color .5s .1s, background-color .5s .1s;
+}
+
+#project-list{
+    margin-top: 16px;
+}
+
+#project-entry{
+    margin-top: 10px;
+}

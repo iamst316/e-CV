@@ -1,12 +1,16 @@
 // import "../css/WorkExp.css";
 import Project from './Project'
 import {useState} from 'react'
+import '../css/Projects.css';
+
+
+
 export default function(){
 
     let [projectArr, setArr] = useState([{
         title: "Laundry Cart",
         link: "https://github.com/iamst316/laundry-cart-ui",
-        live: "/",
+        live: "https://full-ui-iamst316.onrender.com",
         details : [
             "Technologies Used - ReactJS, NodeJS, ExpressJS, Mongoose,MongoDB" ,
             "Implemented new order and checkout components in UI",
@@ -18,7 +22,7 @@ export default function(){
     {
         title: "Book List",
         link: "https://github.com/iamst316/book-list-ui",
-        live: "/",
+        live: "https://book-list-ui.onrender.com",
         details : [
             "Technologies Used - ReactJS" ,
             "Created Login and Register page in UI",
@@ -28,7 +32,7 @@ export default function(){
     {
         title: "Photo Search",
         link: "https://github.com/iamst316/photo-search",
-        live: "/",
+        live: "https://photo-search-7ctp.onrender.com",
         details : [
             "Technologies Used - ReactJS" ,
             "Created basic UI to search images and bookmark them",
@@ -37,9 +41,10 @@ export default function(){
     }
 ])
     // console.log(workArr)
-
+    
     return(<div id='project-main'>
-        <h1>Projects</h1>
+        <h1 id='project-main-title'>Projects</h1>
+        <hr />
         <div id='project-list'>
             {projectArr.map((i)=>{
                 return <Project title={i.title} link={i.link} live={i.live} details={i.details}  />

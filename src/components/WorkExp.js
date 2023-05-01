@@ -15,10 +15,11 @@ export default function() {
             "Provided KT to relatively green members"
         ]
     }])
-    console.log(workArr)
+    // console.log(workArr)
+    
 
     return (<div id='work-main'>
-        <h1>Work Experience</h1>
+        <h1 id='work-main-title'>Work Experience</h1>
         <hr />
         <div id='work-list'>
             {workArr.map((i) => {

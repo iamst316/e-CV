@@ -1,6 +1,9 @@
 #main-page{
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: flex-end; */
 }
 
 hr{
