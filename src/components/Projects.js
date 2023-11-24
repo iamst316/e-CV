@@ -20,25 +20,26 @@ export default function(){
         ]
     },
     {
-        title: "Book List",
-        link: "https://github.com/iamst316/book-list-ui",
-        live: "https://book-list-ui.onrender.com",
+        title: "UI Gallery",
+        link: "https://github.com/iamst316/ui-gallery",
+        live: "https://iamst316.github.io/ui-gallery/",
+        details : [
+            "Technologies Used - ReactJS" ,
+            "A showcase of my UI Designs and Functional Components",
+            "A playground for me to exercise my newly gained skills."
+        ]
+    },
+    {
+        title: "Inventory Management System",
+        link: "https://gitlab.com/iamshubham316/inventory-management-system",
+        
         details : [
             "Technologies Used - ReactJS" ,
             "Created Login and Register page in UI",
             "Created Book List component to display present book list"
         ]
     },
-    {
-        title: "Photo Search",
-        link: "https://github.com/iamst316/photo-search",
-        live: "https://photo-search-7ctp.onrender.com",
-        details : [
-            "Technologies Used - ReactJS" ,
-            "Created basic UI to search images and bookmark them",
-            "Integrated Unsplash API to fetch images"
-        ]
-    }
+    
 ])
     // console.log(workArr)
     

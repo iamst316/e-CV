@@ -9,7 +9,7 @@ export default function(){
     let [edArr, setArr] = useState([{
         school: "10x Academy",
         degree: "Full-Stack Developer Bootcamp",
-        duration: "Sept 2022 - Present",
+        duration: "Sept 2022 - May 2023",
         details : [
             
         ]

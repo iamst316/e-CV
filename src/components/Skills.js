@@ -6,11 +6,18 @@ export default function(){
         "Data Structures & Algorithms",
         "Python",
         "JavaScript",
+        "Java",
         "ReactJS",
         "NodeJS",
         "ExpressJS",
+        "MongoDB",
         "Django",
-        "HTML/CSS"
+        "HTML5/CSS3",
+        "Angular",
+        "Spring Boot",
+        "SQL",
+        "PHP",
+        "GSAP"
     ])
     
     return(<div id='skills-main'>
