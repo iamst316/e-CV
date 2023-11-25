@@ -2,13 +2,8 @@ import pic from '../img/pic.jpg'
 import '../css/AboutMe.css'
 import linkedin from '../img/linkedin.svg'
 import github from '../img/github.svg'
-// import { useRef } from 'react'
-
-
 
 export default function(){
-// const myRef = useRef();
-// const y = myRef.current.offsetTop;
     
     return(<div id='about-main' >
         <h1 id='about-main-title'>About Me</h1>

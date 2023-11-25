@@ -1,14 +1,38 @@
 import { useState } from "react"
 import '../css/SideIndex.css'
 
+
 export default function(){
   let [tabArr, setTab] = useState([
-    "About Me",
-    "Contact Me",
-    "Work Experience",
-    "Projects",
-    "Education",
-    "Skills"
+    {
+      tab: "About Me",
+      link: "#about-main"
+    },
+    {
+      tab: "Contact Me",
+      link: "#contact-main"
+    },
+    {
+      tab: "Work Experience",
+      link: "#work-main"
+    },
+    {
+      tab: "Projects",
+      link: "#project-main"
+    },
+    {
+      tab: "Education",
+      link: "#ed-main"
+    },
+    {
+      tab: "Skills",
+      link: "#skills-main"
+    },
+    
+    // "Contact Me",
+    // "Work Experience",
+    // "Projects",
+    // "Education",
   ])
   let [posArr, setPos] = useState([
     114,
@@ -22,11 +46,8 @@ export default function(){
     return(<div id='index-main'>
       {tabArr.map((i,idx)=>{
         return <div id='tab' onClick={()=>{
-          window.scroll({
-            top:posArr[idx],
-            behavior: "smooth"
-          })
-        }}>{i}</div>
+          
+        }}><a href={i.link}>{i.tab}</a></div>
       })}
     </div>)
 }

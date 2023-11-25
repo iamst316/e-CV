@@ -10,9 +10,9 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div id='main-page'>
-      <div id='index'>
+      {/* <div id='index'> */}
         <SideIndex />
-      </div>
+      {/* </div> */}
       <div id='content'>
         <h1>Shubham Tandon</h1>
         <p>I’m a <b>software engineer</b> based out of Ambala, Haryana.</p>
